@@ -1,0 +1,39 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ff33cc;
+  font-size: 16px;
+  font-family: arial;
+  color: #fff;
+}
+section{
+  width: 450px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#numero, #multiplicante{
+  border-radius: 5px;
+}
+.button{
+  background-color: green;
+  margin-right: 25px;
+  border-radius: 5px;
+  border: none;
+  width: 70px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#botao-limpar{
+  background-color: red;
+}
+footer{
+  font-style: italic;
+  margin-top: 15px;
+}

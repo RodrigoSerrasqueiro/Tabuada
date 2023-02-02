@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Tabuadas</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>GERE SUA TABUADA</h1>
+  </header>
+
+  <section>
+    <div id="input">
+      <p>
+        Tabuada do número: <input type="number" name="numero" id="numero" style="width: 70px;">
+      </p>
+      <p>
+        Multiplicar do 0 até o número: <input type="number" name="multiplicante" id="multiplicante" style="width: 70px;">
+      </p>
+      <p>
+        <input type="button" value="gerar" onclick="gerarTabuada()"  class="button" id="botao-gerar">
+        <input type="button" value="limpar" onclick="limpar()" class="button" id="botao-limpar">
+      </p>
+    </div>
+    <div id="resultado">
+      <p>
+        Preencha os dados e clique em <strong>gerar.</strong>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; Rodrigo Serrasqueiro
+  </footer>
+  
+  <script src="./scripts.js"></script>
+</body>
+</html>
